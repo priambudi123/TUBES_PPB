@@ -10,7 +10,7 @@ import 'package:tubes_ppb/style/color.dart';
 
 class Homepage extends StatelessWidget {
   Homepage({super.key});
-
+  // data instance
   final TextEditingController _searchController = TextEditingController();
   final db = FirebaseFirestore.instance;
 
@@ -26,6 +26,7 @@ class Homepage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // media query
     MediaQueryData mediaQuery = MediaQuery.of(context);
     return Scaffold(
       body: Container(
