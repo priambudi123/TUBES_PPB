@@ -29,5 +29,3 @@ class Placemark {
     required this.postalCode,
   });
 }
-
-//test
